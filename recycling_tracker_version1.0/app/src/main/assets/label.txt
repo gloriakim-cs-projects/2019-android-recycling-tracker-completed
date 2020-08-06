@@ -1,0 +1,72 @@
+Aluminum Can
+Backpack
+Ball
+Bicycle
+Binder
+Candy Wrapper
+Cardboard
+Carton
+Cellphone
+Charger
+Chips
+Clothing
+Coffee Cup
+Coffee Machine
+Comb
+Computer
+Detergent
+Earphone
+Eraser
+Fan
+Food Scrap
+Frying Pan
+Furniture
+Glass Bottle
+Glass Cup
+Glass Jar
+Glasses
+Hair Dryer
+Hairbrush
+Hanger
+Juice Box
+Juice Pouch
+Lamp
+Laptop
+Lightbulb
+Medicine
+Mug
+Paper
+Paper Cup
+Paper Plate
+Paper Towel
+Pen
+Pillow
+Pizza Box
+Plastic Bag
+Plastic Cup
+Plastic Drink Bottle
+Plastic Jug
+Plastic Liquid Bottle
+Plastic Sauce Bottle
+Plastic Utencil
+Pot
+Refrigrator
+Rug
+Scissors
+Shoes
+Silverware
+Steel Can
+Straw
+Styrofoam Box
+Styrofoam
+Surge Protector
+Textile
+Tissue
+To Go Box
+Toothbrush
+Toothpaste
+Towel
+Trash Bag
+TV
+Umbrella
+USB Flash Drive
