@@ -20,9 +20,8 @@ The app is downloadable at [Google Play Store (in process)](https://play.google.
 
 ## Contributing
 
-The list of references for building this project is shown below:
-
-1. 
+We Mean Green Fund
+Dr. Mark Thompson
 
 ## Author
 
