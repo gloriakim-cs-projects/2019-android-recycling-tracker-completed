@@ -1,6 +1,6 @@
 # Recycling Tracker
 
-**Recycling Tracker** is an android app to show how to recycle materials in areas of Denton, Texas.
+**Recycling Tracker** is an android app to show how to recycle materials in areas of Denton, Texas. The app applied machine-learning to sort the captured materials to over 70 classifications.
 
 ## Download
 
