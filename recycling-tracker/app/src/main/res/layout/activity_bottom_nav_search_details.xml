@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight">
+
+    <TextView
+        android:id="@+id/rectangle_white"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/rectangle_white"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/rectangle_white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rectangle_dark_round" />
+
+    <ImageView
+        android:id="@+id/recycle_symbol"
+        android:layout_alignRight="@id/title"
+        android:layout_alignTop="@id/title"
+        android:layout_alignBottom="@id/title"
+        android:paddingRight="15dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_recycle"/>
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignTop="@id/title"
+        android:layout_alignBottom="@id/title"
+        android:layout_alignLeft="@id/title"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:text="Candy Wrapper"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title_description"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@id/title"
+        android:layout_alignRight="@id/title"
+        android:text="Please do NOT recycle."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:elevation="10dp"/>
+
+    <TextView
+        android:id="@+id/title_description2"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_description"
+        android:paddingTop="20dp"
+        android:layout_alignLeft="@id/title"
+        android:layout_alignRight="@id/title"
+        android:text="Candy wrappers are not recyclable because (1) they may have possible food contamination and (2) they are made of a combination of plastic and aluminum, which is very difficult to separate."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_alignBottom="@id/rectangle_white"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/rectangle_dark_very_round"
+        android:text="CLOSED"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/background"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_transparent_candy"
+        android:paddingTop="20dp"
+        android:elevation="0dp" />
+
+</RelativeLayout>

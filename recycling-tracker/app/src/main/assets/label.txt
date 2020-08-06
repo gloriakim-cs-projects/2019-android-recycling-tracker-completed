@@ -1,0 +1,66 @@
+Bag
+Bicycle
+Binder
+Blanket
+Bulletin Board
+Can
+Can Opener
+Candy Wrapper
+Car
+Cardboard
+Cellphone
+Cellphone Charger
+Clothing
+Coffee Maker
+Computer
+Earphone
+Eraser
+Extension Code
+Fan
+Food
+Frying Pan
+Furniture
+Glass Bottle
+Glass Container
+Glasses
+Hair Dryer
+Hairbrush
+Hanger
+Lamp
+Laptop
+Lightbulb
+Lotion
+Medicine
+Milk Carton
+Milk Jug
+Mug
+Notebook
+Paper
+Paper Cup
+Paper Plate
+Pen
+Pencil
+Pillow
+Plastic Bag
+Plastic Bottle
+Plastic Container
+Plastic Utencil
+Polystyrene Foam
+Pot
+Refrigrator
+Rubber Band
+Rug
+Scissors
+Shoes
+Silverware
+Skateboard
+Straw
+Toothpaste
+Towel
+Trash Bag
+TV
+Umbrella
+USB Cable
+USB Flash Drive
+White Board
+Wood Utencil

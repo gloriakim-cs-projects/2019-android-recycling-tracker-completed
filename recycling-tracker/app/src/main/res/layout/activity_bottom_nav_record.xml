@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bottom_nav_camera"
+    android:id="@+id/bins"
+    android:background="@color/colorPrimaryLight">
+
+    <ImageButton
+        android:id="@+id/ic_recycle_bin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignRight="@id/centerPoint"
+        android:background="@drawable/ic_recycle_bin" />
+
+    <ImageButton
+        android:id="@+id/ic_trash_bin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignLeft="@id/centerPoint"
+        android:background="@drawable/ic_trash_bin" />
+
+    <TextView
+        android:id="@+id/centerPoint"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

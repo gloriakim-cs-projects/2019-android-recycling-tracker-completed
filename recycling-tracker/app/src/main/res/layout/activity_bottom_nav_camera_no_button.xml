@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:id="@+id/camera_no_button">
+
+    <TextView
+        android:id="@+id/rectangle_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rectangle_white" />
+
+    <TextView
+        android:id="@+id/text_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please tell us what your item is."
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignTop="@id/rectangle_white"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageButton
+        android:id="@+id/search_bar"
+        android:layout_width="150dp"
+        android:layout_height="40sp"
+        android:layout_alignStart="@id/text_item"
+        android:layout_alignLeft="@id/text_item"
+        android:layout_alignEnd="@id/text_item"
+        android:layout_below="@id/text_item"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/rectangle_dark_round"
+        android:layout_alignRight="@id/text_item" />
+
+    <TextView
+        android:id="@+id/search_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/search_bar"
+        android:layout_alignBottom="@+id/search_bar"
+        android:layout_toEndOf="@+id/search_icon"
+        android:layout_toRightOf="@+id/search_icon"
+        android:gravity="center_vertical"
+        android:text="Search for my item..."
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryLight"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        android:imeOptions="actionSearch"/>
+
+    <ImageView
+        android:id="@+id/search_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search"
+        android:layout_alignLeft="@id/search_bar"
+        android:layout_alignTop="@id/search_bar"
+        android:layout_alignBottom="@id/search_bar"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/text_retake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="You can also retake your picture."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ic_retake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_retake"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_retake" />
+
+</RelativeLayout>
