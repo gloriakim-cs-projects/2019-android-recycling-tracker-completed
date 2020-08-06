@@ -14,6 +14,10 @@ The app is downloadable at [Google Play Store (in process)](https://play.google.
 
 ## Detailed Demo
 
+## Research Poster
+
+![WMGF_Poster](https://user-images.githubusercontent.com/68700599/89502384-8b416980-d78a-11ea-8bea-652a09139b77.png)
+
 ## Contributing
 
 The list of references for building this project is shown below:
