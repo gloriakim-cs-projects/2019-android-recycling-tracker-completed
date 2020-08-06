@@ -1,0 +1,2 @@
+rootProject.name='recycling-tracker'
+include ':app'
