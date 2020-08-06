@@ -91,7 +91,7 @@ public class top_nav_collect extends AppCompatActivity {
         ic_record_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent int3 = new Intent(top_nav_collect.this, top_nav_collect.class);
+                Intent int3 = new Intent(top_nav_collect.this, credits.class);
                 startActivity(int3);
             }
         });

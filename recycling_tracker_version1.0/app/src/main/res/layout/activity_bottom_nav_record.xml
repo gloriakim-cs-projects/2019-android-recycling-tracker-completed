@@ -124,7 +124,7 @@
         android:id="@+id/ic_collection_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="COLLECTION"
+        android:text="COLLECT"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -215,8 +215,7 @@
         android:id="@+id/image_record"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:background="@drawable/ic_record"
-        android:text="Search"
+        android:background="@drawable/ic_copyright_white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/bottom_nav_background"
         app:layout_constraintStart_toEndOf="@id/ic_main_camera" />
@@ -228,7 +227,6 @@
         android:layout_marginStart="60dp"
         android:layout_marginLeft="60dp"
         android:background="@drawable/ic_search"
-        android:text="Search"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/bottom_nav_background" />
 
@@ -248,7 +246,7 @@
         android:id="@+id/text_record"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RECORD"
+        android:text="CREDITS"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@id/image_record"

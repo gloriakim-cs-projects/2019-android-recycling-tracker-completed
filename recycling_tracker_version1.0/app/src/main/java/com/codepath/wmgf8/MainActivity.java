@@ -14,7 +14,7 @@ import java.util.Calendar;
 public class MainActivity extends AppCompatActivity {
 
     ImageButton ic_camera_button, ic_search_button, ic_record_button;
-    Button ic_goal_button, ic_collection_button, credits_button;
+    Button ic_goal_button, ic_collection_button;
     TextView total_count, percent, percent2;
     int compared_percent;
 
@@ -37,18 +37,6 @@ public class MainActivity extends AppCompatActivity {
                 editor.putString("first_time", "No");
                 editor.apply();
             }
-
-            /////////////////////
-            /* credits button */
-            ////////////////////
-            credits_button = (Button) findViewById(R.id.credits_button);
-            credits_button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent int0 = new Intent(MainActivity.this, credits.class);
-                    startActivity(int0);
-                }
-            });
 
             /////////////////////
             /* weekly counter */
@@ -132,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
             ic_record_button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent int3 = new Intent(MainActivity.this, top_nav_collect.class);
+                    Intent int3 = new Intent(MainActivity.this, credits.class);
                     startActivity(int3);
                 }
             });

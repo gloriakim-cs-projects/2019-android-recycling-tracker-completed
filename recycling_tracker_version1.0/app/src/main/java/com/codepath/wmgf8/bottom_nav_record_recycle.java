@@ -128,7 +128,7 @@ public class bottom_nav_record_recycle extends AppCompatActivity {
         ic_record_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent int3 = new Intent(bottom_nav_record_recycle.this, bottom_nav_record.class);
+                Intent int3 = new Intent(bottom_nav_record_recycle.this, credits.class);
                 startActivity(int3);
             }
         });

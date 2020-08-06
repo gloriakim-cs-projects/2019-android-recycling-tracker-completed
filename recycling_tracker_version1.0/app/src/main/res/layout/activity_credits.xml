@@ -61,105 +61,111 @@
         android:textSize="50dp"
         android:textStyle="bold"/>
 
-    <TextView
-        android:id="@+id/description1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@id/credits"
-        android:layout_alignLeft="@id/background"
-        android:paddingTop="10dp"
-        android:paddingLeft="30dp"
-        android:text="APP DEVELOPMENT"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:id="@+id/description2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/description1"
-        android:layout_alignLeft="@id/background"
-        android:paddingLeft="30dp"
-        android:text="Gloria Kim"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20dp"/>
-
-    <TextView
-        android:id="@+id/description3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/description2"
-        android:layout_alignLeft="@id/background"
-        android:paddingTop="10dp"
-        android:paddingLeft="30dp"
-        android:text="MENTORS"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:id="@+id/description4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/description3"
-        android:layout_alignLeft="@id/background"
-        android:paddingLeft="30dp"
-        android:text="Dr. Mark Thompson\nEmily Bilcik\nCassie Hudson\nErik Trevino\nPranathy Enamela\nRyan Peck"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20dp"/>
-
-    <TextView
-        android:id="@+id/description5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/description4"
-        android:layout_alignLeft="@id/background"
-        android:paddingTop="10dp"
-        android:paddingLeft="30dp"
-        android:text="PHOTOS"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:id="@+id/description6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/description5"
-        android:layout_alignLeft="@id/background"
+        android:layout_above="@id/close_button"
         android:layout_alignRight="@id/background"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
-        android:text="Kayleigh Kowaleski"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20dp"/>
-
-    <TextView
-        android:id="@+id/description7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/description6"
         android:layout_alignLeft="@id/background"
-        android:paddingTop="10dp"
-        android:paddingLeft="30dp"
-        android:text="ICONS"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
+        android:layout_margin="10dp">
 
-    <TextView
-        android:id="@+id/description8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/description7"
-        android:layout_alignLeft="@id/background"
-        android:layout_alignRight="@id/background"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
-        android:text="flaticon.com"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/description1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="30dp"
+                android:text="APP DEVELOPMENT"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/description2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description1"
+                android:paddingLeft="30dp"
+                android:text="Gloria Kim"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/description3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description2"
+                android:paddingTop="10dp"
+                android:paddingLeft="30dp"
+                android:text="MENTORS"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/description4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description3"
+                android:paddingLeft="30dp"
+                android:text="Dr. Mark Thompson\nEmily Bilcik\nCassie Hudson\nErik Trevino\nPranathy Enamela\nRyan Peck"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/description5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description4"
+                android:paddingTop="10dp"
+                android:paddingLeft="30dp"
+                android:text="PHOTOS"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/description6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description5"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Kayleigh Kowaleski"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/description7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description6"
+                android:paddingTop="10dp"
+                android:paddingLeft="30dp"
+                android:text="ICONS"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/description8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description7"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="flaticon.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
 
     <Button
         android:id="@+id/close_button"
