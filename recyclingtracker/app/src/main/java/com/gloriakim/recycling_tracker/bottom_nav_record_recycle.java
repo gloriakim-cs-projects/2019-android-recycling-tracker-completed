@@ -69,7 +69,7 @@ public class bottom_nav_record_recycle extends AppCompatActivity {
                 s5.append(Integer.toString(i + 1));
                 String s6 = s5.toString();
 
-                recycle_image[num] = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + s6, null, null);
+                recycle_image[num] = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + s6, null, null);
                 //move to next position
                 num += 1;
             }

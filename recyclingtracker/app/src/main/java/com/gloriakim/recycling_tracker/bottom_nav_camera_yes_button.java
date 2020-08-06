@@ -57,7 +57,7 @@ public class bottom_nav_camera_yes_button extends AppCompatActivity {
         s.append(position);
         String s2 = s.toString();
 
-        int id = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + s2, null, null);
+        int id = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + s2, null, null);
         item.setImageResource(id);
 
         //more info button

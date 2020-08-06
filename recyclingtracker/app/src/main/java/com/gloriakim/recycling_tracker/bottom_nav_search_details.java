@@ -131,7 +131,7 @@ public class bottom_nav_search_details extends AppCompatActivity {
         position = position + 1;
         s.append(position);
         String s2 = s.toString();
-        int id = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + s2, null, null);
+        int id = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + s2, null, null);
         photo.setBackgroundResource(id); //FIXME I do not have the full list of photos
         //set photo_text
         position = position - 1;

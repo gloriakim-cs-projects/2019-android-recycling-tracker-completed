@@ -270,14 +270,14 @@ public class top_nav_goal extends AppCompatActivity {
     public String IOD(){
         Random random = new Random();
         String str0 = "oic_" + random.nextInt(72); //number of classes/folders
-        int id = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str0, null, null);
+        int id = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str0, null, null);
         IOD.setBackgroundResource(id);
 
         return str0;
     }
 
     public void IOD2(String str, int[] counter) {
-        int id = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str, null, null);
+        int id = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str, null, null);
         IOD.setBackgroundResource(id);
 
         String str2 = str.replaceAll("[^0-9]", "");
@@ -339,10 +339,10 @@ public class top_nav_goal extends AppCompatActivity {
 
         Random random = new Random();
 
-        int id1 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[0], null, null);
-        int id2 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[1], null, null);
-        int id3 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[2], null, null);
-        int id4 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[3], null, null);
+        int id1 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[0], null, null);
+        int id2 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[1], null, null);
+        int id3 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[2], null, null);
+        int id4 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[3], null, null);
 
         daily_goal1.setBackgroundResource(id1);
         daily_goal2.setBackgroundResource(id2);
@@ -396,10 +396,10 @@ public class top_nav_goal extends AppCompatActivity {
     }
 
     public void returned_daily_goal(String[] str) {
-        int id1 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[0], null, null);
-        int id2 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[1], null, null);
-        int id3 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[2], null, null);
-        int id4 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[3], null, null);
+        int id1 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[0], null, null);
+        int id2 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[1], null, null);
+        int id3 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[2], null, null);
+        int id4 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[3], null, null);
 
         daily_goal1.setBackgroundResource(id1);
         daily_goal2.setBackgroundResource(id2);
@@ -609,10 +609,10 @@ public class top_nav_goal extends AppCompatActivity {
 
         Random random = new Random();
 
-        int id5 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[0], null, null);
-        int id6 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[1], null, null);
-        int id7 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[2], null, null);
-        int id8 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[3], null, null);
+        int id5 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[0], null, null);
+        int id6 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[1], null, null);
+        int id7 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[2], null, null);
+        int id8 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[3], null, null);
 
         weekly_goal1.setBackgroundResource(id5);
         weekly_goal2.setBackgroundResource(id6);
@@ -664,10 +664,10 @@ public class top_nav_goal extends AppCompatActivity {
     }
 
     public void returned_weekly_goal(String[] str) {
-        int id1 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[0], null, null);
-        int id2 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[1], null, null);
-        int id3 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[2], null, null);
-        int id4 = getResources().getIdentifier("com.codepath.wmgf8:drawable/" + str[3], null, null);
+        int id1 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[0], null, null);
+        int id2 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[1], null, null);
+        int id3 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[2], null, null);
+        int id4 = getResources().getIdentifier("com.gloriakim.recycling_tracker:drawable/" + str[3], null, null);
 
         weekly_goal1.setBackgroundResource(id1);
         weekly_goal2.setBackgroundResource(id2);
