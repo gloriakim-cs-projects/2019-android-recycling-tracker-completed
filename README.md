@@ -22,14 +22,9 @@ The app is downloadable at [Google Play Store (in process)](https://play.google.
 
 ![WMGF_Poster](https://user-images.githubusercontent.com/68700599/89502384-8b416980-d78a-11ea-8bea-652a09139b77.png)
 
-## Contributing
-
-We Mean Green Fund
-Dr. Mark Thompson
-
 ## Author
 
-With the help from **Contributing** above, this work is solely done by Gloria Kim.
+With the support from **We Mean Green Fund** and **Dr. Mark Thompson**, this work is solely done by Gloria Kim.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
