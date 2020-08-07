@@ -1,10 +1,8 @@
 # Recycling Tracker
 
+**Note:** Please see [this repositoy](https://github.com/gloriakim-cs-projects/2020-android-recycling-tracker-coding/) for the newly-designed Recycling Tracker. 
+
 **Recycling Tracker** is an android app to show how to recycle materials in areas of Denton, Texas. The app applied machine-learning to sort the captured materials to over 70 classifications.
-
-## Download
-
-The app is downloadable at [Google Play Store (in process)](https://play.google.com/store?hl=en_US).
 
 ## Design
 
