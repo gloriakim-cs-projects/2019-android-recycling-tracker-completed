@@ -26,7 +26,7 @@ The app is downloadable at [Google Play Store (in process)](https://play.google.
 
 With the support from **We Mean Green Fund** and **Dr. Mark Thompson**, this work is solely done by Gloria Kim.
 
-**Note:** The used icons are from flaticon.com.
+**Note:** The used icons are from **flaticon.com**.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
