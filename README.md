@@ -12,7 +12,11 @@ The app is downloadable at [Google Play Store (in process)](https://play.google.
 
 ## Simple Demo
 
+![recycling-tracker-short](https://user-images.githubusercontent.com/68700599/89608705-7cff5600-d83b-11ea-81a1-959ced6e0a76.gif)
+
 ## Detailed Demo
+
+[![](http://img.youtube.com/vi/ITJ1OnTVbzo/0.jpg)](http://www.youtube.com/watch?v=ITJ1OnTVbzo "")
 
 ## Research Poster
 
