@@ -22,7 +22,7 @@
 
 ## Author
 
-With the support from **We Mean Green Fund** and **Dr. Mark Thompson**, this work is solely done by Gloria Kim.
+With the support from **We Mean Green Fund** and **Dr. Mark Thompson**, this work is solely done by Gloria Kim and planned together with Sung Min Lim.
 
 **Note:** The used icons are from **flaticon.com**.
 
